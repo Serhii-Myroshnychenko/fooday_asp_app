@@ -14,5 +14,6 @@ namespace WebApplication3.Data
 
         }
         public DbSet<product_category> category { get; set;}
+        public DbSet<product> product { get; set; }
     }
 }
